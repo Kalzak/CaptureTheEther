@@ -1,0 +1,1 @@
+eth send <contract address> "guess(uint8)()" 0x002A --value 1000000000000000000

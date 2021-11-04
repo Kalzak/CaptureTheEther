@@ -1,0 +1,8 @@
+# Check to see that the initial state of 'isComplete' is false
+	> seth call <address> "isComplete()(bool)"
+
+# Call the function 'callme' to change 'isComplete' to true
+	> seth send <address> "callme()"
+
+# Check to see that the initial state of 'isComplete' is true
+	> seth call <address> "isComplete()(bool)"
