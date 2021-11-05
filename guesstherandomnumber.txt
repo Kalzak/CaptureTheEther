@@ -1,0 +1,5 @@
+# Read storage to see what data is in the storage variable
+> seth storage 0x9e21b6ac5a7287c089aef2f0a8926a22fb669d3b 0
+
+# Make the guess
+> seth send 0x9e21b6ac5a7287c089aef2f0a8926a22fb669d3b "guess(uint8)()" 0xf9 --value 1000000000000000000
