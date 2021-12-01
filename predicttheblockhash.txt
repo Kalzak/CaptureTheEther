@@ -1,0 +1,3 @@
+# The function uses `blockhash()` 
+# After 256 blocks it will always return zero
+# We can simply call the `settle()` function  after 256 blocks with our guess as 0x0

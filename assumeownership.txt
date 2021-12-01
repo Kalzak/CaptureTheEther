@@ -1,0 +1,2 @@
+The constructor function has a typo so it's not actually a constructor
+This means that I can call it

